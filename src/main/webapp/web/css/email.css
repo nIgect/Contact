@@ -1,0 +1,129 @@
+.body{
+}
+.container {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 5%;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.23);
+}
+
+.panel-footer{
+    background-color: transparent;
+}
+h3{
+    color: #fcffff;
+    text-align: center;
+}
+p{
+    color: #fff7f4;
+}
+::-webkit-input-placeholder {color:#7de4ff;}
+::-moz-placeholder          {color:#7de4ff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#7de4ff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#7de4ff;}
+.form {
+    background: rgba(0, 0, 0, 0.58);
+    width: 470px;
+    margin: 0 auto;
+    padding-left: 37px;
+    padding-top: 20px;
+}
+
+.form fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.form p.contact {
+    font-size: 12px;
+    margin: 0 0 10px 0;
+    line-height: 14px;
+    font-family: Arial, Helvetica;
+}
+
+.form input[type="text"] {
+    width: 400px;
+}
+.form textarea{
+    width: 400px;
+}
+.form label {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica;
+}
+
+.form label.month {
+    width: 135px;
+}
+.form input, textarea {
+    background-color: rgba(255, 255, 255, 0.52);
+    border: 1px solid rgba(122, 192, 0, 0.15);
+    padding: 7px;
+    font-family: Keffeesatz, Arial;
+    color: #fffdfd;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+.form input:focus, textarea:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.form input:active{
+    background-color: rgba(164, 171, 173, 0.51);
+}
+
+
+.form .select-style {
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 50px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-image: url(../image/select-arrow.png),
+    -webkit-linear-gradient(rgba(0, 0, 0, 0.52), rgba(2, 2, 2, 0.3) 40%, #E5E5E5);
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 0 solid #FFF;
+    color: #555;
+    font-size: small;
+    overflow: hidden;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.form input.buttom {
+    background: #4b8df9;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fbf7f7;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px #999;
+    -webkit-box-shadow: 0 1px 3px #999;
+    box-shadow: 0 1px 3px #999;
+    text-shadow: 0 -1px 1px #222;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.form input.buttom:hover {
+    background-color: #2a78f6;
+}
+

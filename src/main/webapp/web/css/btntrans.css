@@ -1,0 +1,38 @@
+.btn-trans {
+    background:none;
+    box-shadow:none;
+}
+
+.btn-trans-default {
+    border: 2px solid #999999;
+    color:#999999;
+}
+.btn-trans-primary {
+    border: 2px solid #0044CC;
+    color:#0044CC;
+}
+.btn-trans-success {
+    color: #3affaf;
+}
+
+.btn-trans-info {
+    border: 2px solid #fdf5ff;
+    color: #fff7f4;
+}
+.btn-trans-warning {
+    border: 2px solid #F89406;
+    color:#F89406;
+}
+.btn-trans-danger {
+    border: 2px solid #BD362F;
+    color:#BD362F;
+}
+.btn-trans-success:active:focus {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #39d6af;
+}
+.btn-trans-success:hover {
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.58);
+}
